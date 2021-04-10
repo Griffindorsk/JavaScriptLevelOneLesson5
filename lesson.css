@@ -1,0 +1,15 @@
+.output_frame {
+    margin: 5vh 10vw;
+    font-family: sans-serif;
+}
+.output_frame p {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+}
+.output_frame h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.0rem;
+    font-weight: 600;
+}

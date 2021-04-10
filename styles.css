@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.chess {
+    display: grid;
+    /* grid-template-columns: minmax(min-content,5vw);
+    grid-template-rows: minmax(min-content,5vw); */
+    max-width: 60vw;
+    margin: 1vh 5vw;
+    font-family: sans-serif;
+    align-self: center;
+}
+.chess img {
+    width: 60px;
+    margin: 0 auto;
+}
+.black {
+    display: grid;
+    background-color: #88370a;
+    color: white;
+    align-items: center;
+}
+.white {
+    display: grid;
+    background-color: rgb(254, 255, 225);
+    color: rgb(22, 22, 22);
+    align-items: center;
+}
+.columns_name, .rows_name {
+    display: grid;
+    background-color: rgb(235, 229, 196);
+    color: rgb(0, 6, 83);
+    align-items: center;
+    min-width: 3rem;
+}
+.columns_name {
+    border-left: 1px solid rgba(9, 56, 87, 0.651);
+}
+.rows_name {
+    border-top: 1px solid rgba(9, 56, 87, 0.651);
+}
+
+.chess p {
+    font-size: 1rem;
+    color: grey;
+    text-align: center;
+    align-items: center;
+}
+.chess h3 {
+    line-height: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.chess h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: red;
+}
+
+.chess .columns_name h3, .chess .rows_name h3 {
+    line-height: 3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.newBorder {
+    border: 1px solid red;
+    background-color: rgb(255, 255, 176);
+}
